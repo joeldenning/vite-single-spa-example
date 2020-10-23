@@ -1,0 +1,1 @@
+# vite-single-spa-example
