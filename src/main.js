@@ -1,8 +1,7 @@
-import '/vite/client'
+import './index.css'
 import { createApp, h } from 'vue'
 import App from './App.vue'
 import singleSpaVue from 'single-spa-vue'
-import './index.css'
 
 // createApp(App).mount('#app')
 
