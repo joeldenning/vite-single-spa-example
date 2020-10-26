@@ -4,9 +4,13 @@ export default {
   configureServer: ({ app }) => {
     app.use(cors({ origin: '*' }));
   },
+  rollupInputOptions: {
+    input: 'src/main.js',
+    preserveEntrySignatures: true
+  },
   rollupOutputOptions: {
     format: 'system',
-  }
+  },
   // This will fix the logo URL problem,
   // but is waiting on https://github.com/vuejs/vue-next/pull/2477
   // vueTransformAssetUrls: {
