@@ -18,6 +18,6 @@ The URL to the main module that is used as a microfrontend is http://localhost:3
 ## To-do
 
 1. ~~Merge https://github.com/single-spa/single-spa-playground/pull/37~~
-2. Get https://github.com/vuejs/vue-next/pull/2477 merged
+2. Get https://github.com/vuejs/vue-next/pull/2477 merged and published
 3. ~~Get build working by modifying rollup output options to compile to systemjs format~~
-4. Add documentation to single-spa.js.org
+4. ~~Add documentation to single-spa.js.org (https://github.com/single-spa/single-spa.js.org/pull/352)~~
