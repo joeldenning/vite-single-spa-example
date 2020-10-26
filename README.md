@@ -13,7 +13,7 @@ open 'http://single-spa-playground.org/playground/instant-test?name=vite-test&fr
 The url to go to when developing is http://single-spa-playground.org/playground/instant-test?name=vite-test&framework=vue&useNativeModules=true&url=http%3A%2F%2Flocalhost%3A3000%2Fsrc%2Fmain.js
 
 
-The URL to the main module that is used as a microfrontend is http://localhost:3000/src/main.js
+The URL to be used when setting up import map overrides is http://localhost:3000/src/main.js
 
 ## To-do
 
