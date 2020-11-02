@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@koa/cors": "^3.1.0",
-    "single-spa-vue": "^1.10.1",
+    "single-spa-vue": "^2.0.0",
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
