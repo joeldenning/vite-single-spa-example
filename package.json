@@ -2,16 +2,16 @@
   "name": "vite-single-spa-example",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --base='http://localhost:3000/src/'",
+    "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
     "@koa/cors": "^3.1.0",
-    "single-spa-vue": "^2.0.0",
-    "vue": "^3.0.0-rc.1"
+    "single-spa-vue": "^2.0.0"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-rc.1",
-    "vite": "^1.0.0-rc.1"
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^1.0.0-rc.13",
+    "vue": "^3.0.5"
   }
 }
