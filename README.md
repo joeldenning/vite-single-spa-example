@@ -4,16 +4,22 @@ This shows a vite application that functions as a single-spa application.
 
 ## Local dev
 
+### Single-spa playground
+
 ```sh
 pnpm install
-pnpm run dev
+pnpm run dev --https
+open https://localhost:3000/src/main.js # The cert will be insecure - tell your browser to trust it
 open 'https://single-spa-playground.org/playground/instant-test?name=vite-test&framework=vue&useNativeModules=true&url=https%3A%2F%2Flocalhost%3A3000%2Fsrc%2Fmain.js'
 ```
 
-The url to go to when developing is http://single-spa-playground.org/playground/instant-test?name=vite-test&framework=vue&useNativeModules=true&url=http%3A%2F%2Flocalhost%3A3000%2Fsrc%2Fmain.js
-
+The url to go to when developing is https://single-spa-playground.org/playground/instant-test?name=vite-test&framework=vue&useNativeModules=true&url=https%3A%2F%2Flocalhost%3A3000%2Fsrc%2Fmain.js
 
 The URL to be used when setting up import map overrides is http://localhost:3000/src/main.js
+
+### Root config
+
+See https://github.com/joeldenning/vite-single-spa-root-config which shows a root config that loads up this vite application
 
 ## To-do
 
