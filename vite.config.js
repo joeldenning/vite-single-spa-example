@@ -1,4 +1,5 @@
 import cors from '@koa/cors'
+import vue from '@vitejs/plugin-vue'
 
 export default {
   configureServer: ({ app }) => {
@@ -11,7 +12,8 @@ export default {
   rollupOutputOptions: {
     format: 'system',
   },
+  plugins: [vue()],
   vueTransformAssetUrls: {
-    base: 'http://localhost:3000/src/'
+    base: 'https://localhost:3000/src/'
   }
 }
