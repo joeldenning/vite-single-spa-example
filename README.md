@@ -5,8 +5,8 @@ This shows a vite application that functions as a single-spa application.
 ## Local dev
 
 ```sh
-yarn install
-yarn dev
+pnpm install
+pnpm run dev
 open 'http://single-spa-playground.org/playground/instant-test?name=vite-test&framework=vue&useNativeModules=true&url=http%3A%2F%2Flocalhost%3A3000%2Fsrc%2Fmain.js'
 ```
 
