@@ -1,19 +1,17 @@
-import cors from '@koa/cors'
 import vue from '@vitejs/plugin-vue'
 
 export default {
-  configureServer: ({ app }) => {
-    app.use(cors({ origin: '*' }));
-  },
-  rollupInputOptions: {
+  rollupOptions: {
     input: 'src/main.js',
+    format: 'system',
     preserveEntrySignatures: true
   },
-  rollupOutputOptions: {
-    format: 'system',
-  },
-  plugins: [vue()],
-  vueTransformAssetUrls: {
-    base: 'https://localhost:3000/src/'
-  }
+  base: 'http://localhost:3000',
+  plugins: [vue({
+    template: {
+      transformAssetUrls: {
+        base: '/src'
+      }
+    }
+  })],
 }

@@ -1,7 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@koa/cors': ^3.1.0
   '@vitejs/plugin-vue': ^1.2.2
   '@vue/compiler-sfc': ^3.0.11
   single-spa-vue: ^2.3.0
@@ -9,7 +8,6 @@ specifiers:
   vue: ^3.0.5
 
 dependencies:
-  '@koa/cors': 3.1.0
   single-spa-vue: 2.3.0
 
 devDependencies:
@@ -54,13 +52,6 @@ packages:
       '@babel/helper-validator-identifier': 7.14.0
       to-fast-properties: 2.0.0
     dev: true
-
-  /@koa/cors/3.1.0:
-    resolution: {integrity: sha512-7ulRC1da/rBa6kj6P4g2aJfnET3z8Uf3SWu60cjbtxTA5g8lxRdX/Bd2P92EagGwwAhANeNw8T8if99rJliR6Q==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      vary: 1.1.2
-    dev: false
 
   /@vitejs/plugin-vue/1.2.2_@vue+compiler-sfc@3.0.11:
     resolution: {integrity: sha512-5BI2WFfs/Z0pAV4S/IQf1oH3bmFYlL5ATMBHgTt1Lf7hAnfpNd5oUAAs6hZPfk3QhvyUQgtk0rJBlabwNFcBJQ==}
@@ -430,11 +421,6 @@ packages:
   /util-deprecate/1.0.2:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
     dev: true
-
-  /vary/1.1.2:
-    resolution: {integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=}
-    engines: {node: '>= 0.8'}
-    dev: false
 
   /vite/2.2.4:
     resolution: {integrity: sha512-vnIwSNci+phFMp6krhy+FbYzKL0R67Sdt9mVZ96S27AewrApSJjTqncJcalk8sf60BgcbW4+1C6DFIWkxquO9g==}

@@ -6,7 +6,6 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@koa/cors": "^3.1.0",
     "single-spa-vue": "^2.3.0"
   },
   "devDependencies": {
