@@ -24,6 +24,6 @@ See https://github.com/joeldenning/vite-single-spa-root-config which shows a roo
 ## To-do
 
 1. ~~Merge https://github.com/single-spa/single-spa-playground/pull/37~~
-2. ~~Get https://github.com/vuejs/vue-next/pull/2477 merged and published
+2. ~~Get https://github.com/vuejs/vue-next/pull/2477 merged and published~~
 3. ~~Get build working by modifying rollup output options to compile to systemjs format~~
 4. ~~Add documentation to single-spa.js.org (https://github.com/single-spa/single-spa.js.org/pull/352)~~
