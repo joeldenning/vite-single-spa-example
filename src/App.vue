@@ -1,5 +1,9 @@
+<script setup>
+import logo from "./assets/logo.png"
+</script>
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <img alt="Vue logo" :src="logo" />
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
 </template>
 

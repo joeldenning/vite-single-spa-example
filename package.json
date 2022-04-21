@@ -9,9 +9,8 @@
     "single-spa-vue": "^2.3.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.2",
-    "@vue/compiler-sfc": "^3.0.11",
-    "vite": "^2.2.4",
-    "vue": "^3.0.5"
+    "@vitejs/plugin-vue": "^1.10.2",
+    "vite": "^2.9.5",
+    "vue": "^3.2.33"
   }
 }
