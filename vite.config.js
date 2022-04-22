@@ -1,4 +1,7 @@
+import { fileURLToPath, URL } from "url";
 import vue from '@vitejs/plugin-vue'
+
+const BASE_URL = 'http://localhost:3000/'
 
 export default {
   rollupOptions: {
@@ -6,7 +9,10 @@ export default {
     format: 'system',
     preserveEntrySignatures: true
   },
-  base: 'http://localhost:3000',
+  base: BASE_URL,
+  server: {
+    origin: BASE_URL,
+  },
   plugins: [vue({
     template: {
       transformAssetUrls: {
@@ -14,4 +20,9 @@ export default {
       }
     }
   })],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
 }
