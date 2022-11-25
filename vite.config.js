@@ -1,12 +1,19 @@
 import vue from '@vitejs/plugin-vue'
 
 export default {
-  rollupOptions: {
-    input: 'src/main.js',
-    format: 'system',
-    preserveEntrySignatures: true
+  preview: {
+    port: "3000",
   },
-  base: 'http://localhost:3000',
+  build: {
+    rollupOptions: {
+      preserveEntrySignatures: true,
+      input: "src/main.js",
+      output: {
+        format: "system",
+        entryFileNames: "src/[name].js",
+      },
+    },
+  },
   plugins: [vue({
     template: {
       transformAssetUrls: {
